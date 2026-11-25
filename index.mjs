@@ -1,5 +1,5 @@
 import { execFile } from 'node:child_process';
-import { check, error, text, verdict, z } from '@cairul/plugin-kit';
+import { check, error, text, verdict, z } from '@cairul/pdk';
 
 const outputSchema = z.object({ summary: z.object({ deployable: z.boolean().nullable() }) });
 
